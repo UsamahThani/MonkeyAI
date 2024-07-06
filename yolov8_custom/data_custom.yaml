@@ -1,0 +1,6 @@
+train: D:\Codings\yolov8_custom\train
+val: D:\Codings\yolov8_custom\val
+
+nc: 3
+
+names: ["monkey_face","monkey_body", "monkey_hand"]

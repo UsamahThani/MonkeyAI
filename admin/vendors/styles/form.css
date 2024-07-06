@@ -1,0 +1,15 @@
+.form-report {
+    padding: 20px;
+}
+
+.form-submit {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.flex-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

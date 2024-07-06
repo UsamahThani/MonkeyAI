@@ -1,0 +1,186 @@
+.main.ofHidden {
+    width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 5%;
+    position: fixed;
+    overflow: hidden;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+.img-container {
+    width: auto;
+    margin-left: 45%;
+    position: absolute;
+    z-index: 2;
+}
+
+.img-container .profile-img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.content {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.btn-container {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 30px;
+}
+
+.name-container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.data-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.user-data {
+    width: 80%;
+    height: 30%;
+    background-color: #3c4d3a90;
+    text-align: center;
+    padding: 100px;
+}
+
+.user-data p {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+/* edit profile style */
+.user-data form {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-data form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #333;
+}
+
+.user-data form input[type="text"],
+.user-data form input[type="email"],
+.user-data form input[type="password"],
+.user-data form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.user-data form input[type="submit"],
+.user-data form input[type="reset"] {
+  background-color: #2c5315;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.user-data form input[type="submit"]:hover,
+.user-data form input[type="reset"]:hover {
+  background-color: #1d3b0e;
+}
+
+
+/* btn style */
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #171717;
+  padding: 1em 2em;
+  border: none;
+  border-radius: .6rem;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+button span:not(:nth-child(6)) {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 30px;
+  width: 30px;
+  background-color: #0c66ed;
+  border-radius: 50%;
+  transition: .6s ease;
+}
+
+button span:nth-child(6) {
+  position: relative;
+}
+
+button span:nth-child(1) {
+  transform: translate(-3.3em, -4em);
+}
+
+button span:nth-child(2) {
+  transform: translate(-6em, 1.3em);
+}
+
+button span:nth-child(3) {
+  transform: translate(-.2em, 1.8em);
+}
+
+button span:nth-child(4) {
+  transform: translate(3.5em, 1.4em);
+}
+
+button span:nth-child(5) {
+  transform: translate(3.5em, -3.8em);
+}
+
+button:hover span:not(:nth-child(6)) {
+  transform: translate(-50%, -50%) scale(4);
+  transition: 1.5s ease;
+}
+  
+button.logoutBtn span:not(:nth-child(6)) {
+    background-color: #0c66ed; /* Default color for circles */
+}
+
+button.logoutBtn:hover span:not(:nth-child(6)) {
+    background-color: #ed0c0c; /* Hover color for circles */
+}
