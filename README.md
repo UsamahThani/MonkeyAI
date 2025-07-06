@@ -1,7 +1,7 @@
 # Monkey AI
 
 **Requested by:** Damia, student at UiTM  
-**Developed by:** Mohamad Usamah Thani
+**Developed by:** Usamah
 **Project Duration:** July 2, 2024 - July 6, 2024
 
 ## Overview
@@ -52,4 +52,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For more information, please contact me at https://www.linkedin.com/in/usamahthani/.
+For more information, please contact me at [`@linkedIn`]([https://github.com/UsamahThani/TripTelly](https://www.linkedin.com/in/usamahthani/)).
